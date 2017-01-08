@@ -8,7 +8,7 @@ Installation Notice (Ubuntu 16.04.1)
 
 1. Download all files :<br />
 fast_km_example.py  # Python example<br />
-fast_km.c           # C code<br />
+source_fast_km.c    # C code<br />
 fast_km.h           # C Header<br />
 setup.py            # Cython builder (to be executed)<br />
 fast_km.pyx         # Cython link<br />
