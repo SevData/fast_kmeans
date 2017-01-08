@@ -8,21 +8,21 @@ Installation Notice (Ubuntu 16.04.1)
 
 1. Download all files :
 fast_km_example.py  # Python example<br />
-fast_km.c           # C code
-fast_km.h           # C Header
-setup.py            # Cython builder (to be executed)
-fast_km.pyx         # Cython link
+fast_km.c           # C code<br />
+fast_km.h           # C Header<br />
+setup.py            # Cython builder (to be executed)<br />
+fast_km.pyx         # Cython link<br />
 
 2. Install/Upgrade python libraries
-sudo apt-get --yes --force-yes update
-sudo apt-get --yes --force-yes upgrade
-sudo apt-get --yes --force-yes install python3-pip
-sudo apt-get --yes --force-yes install packaging-dev
-sudo pip3 install numpy
-sudo pip3 install cython
+sudo apt-get --yes --force-yes update<br />
+sudo apt-get --yes --force-yes upgrade<br />
+sudo apt-get --yes --force-yes install python3-pip<br />
+sudo apt-get --yes --force-yes install packaging-dev<br />
+sudo pip3 install numpy<br />
+sudo pip3 install cython<br />
 
 3. Call Cython builder with setup.py
-python3 setup.py build_ext --inplace
+python3 setup.py build_ext --inplace<br />
 
 4. Run the example from Python 3
-python3 fast_km_example.py
+python3 fast_km_example.py<br />
